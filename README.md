@@ -1,93 +1,727 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/css/froala_blocks.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_editor.pkgd.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_style.min.css">
-</head>
-<body>
-<section class="fdb-block bg-dark" data-block-type="contents" data-id="1" draggable="true">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-12" style="z-index: 10000;"><h2><strong><em><span style="color: rgb(209, 213, 216);">mynameisgess.</span></em></strong></h2></div>
-    </div>
-  </div>
-</section>
-<section class="fdb-block" data-block-type="contents" data-id="9" draggable="true">
-  <div class="container">
-    <div class="row text-center align-items-center">
-      <div class="col-8 col-md-4" style="z-index: 10000;"><p><img alt="image" class="img-fluid fr-fic fr-dii" src="blob:https://www.froala.com/e04cc1f7-bf1a-4374-8d0e-74473bc66e47"></p></div>
+  <head>
+    <title>Froala Design Blocks - Contents</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link type="text/css" rel="stylesheet" href="css/froala_blocks.css">
+    <style>
+      .fdb-block {
+        border-bottom: 1px solid var(--light);
+      }
+    </style>
+  </head>
+  <body><style>
+  #navigator {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
 
-      <div class="col-4 col-md-2" style="z-index: 10000;"><div class="row"><div class="col-12 fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><img alt="image" class="img-fluid fr-fic fr-dii" src="blob:https://www.froala.com/6d07caf8-f98a-465d-aa82-c4bd4484615a"></p></div></div></div></div><div class="row mt-4"><div class="col-12 fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><img alt="image" class="img-fluid fr-fic fr-dii" src="blob:https://www.froala.com/14472e79-d994-4b72-ad14-3f59db5924df" style="width: 150px;"></p></div></div></div></div></div>
+  #navigator .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
 
-      <div class="col-12 col-md-6 col-lg-5 ml-auto pt-5 pt-md-0" style="z-index: 10000;"><p><img alt="image" class="fdb-icon fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/github.svg"></p><h1>Geshaalgif.</h1><p class="lead">let me introduce my self .hallo my name is gesha you can call me gess.... i am 15 year old.i live in sukabumi i went to school in smk wikrama bogor</p></div>
-    </div>
-  </div>
-</section>
-<section class="fdb-block" data-block-type="testimonials" data-id="10" draggable="true">
-  <div class="container">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8" style="z-index: 10000;"><p class="lead">"orang - orang boleh meragukanmu...memandang sebelah mata padamu,orang orang boleh melakukan itu,karna takkan mampu mematahkanmu selama kau tetap yakin pada dirimu</p><h2 class="lead">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ~geshaalgif.</h2></div>
-      <div class="col-8 col-sm-6 col-md-2 col-lg-3 col-xl-2 mt-4 mt-md-0 ml-auto mr-auto mr-md-0" style="z-index: 10000;"><p><img alt="image" class="img-fluid rounded-circle fr-fic fr-dii" src="blob:https://www.froala.com/b1a0cb4a-10a3-4cef-bb95-fe8e1f042bc1"></p></div>
-    </div>
-  </div>
-</section>
-<section class="fdb-block pt-0 fp-active" data-block-type="contacts" data-id="7" draggable="true">
-  <div class="container-fluid p-0 pb-3">
-    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-  </div>
-  <div class="container">
-    <div class="row text-center justify-content-center pt-5">
-      <div class="col-12 col-md-7" style="z-index: 10000;"><h1>Contact Us</h1></div>
-    </div>
+  @media (max-width: 720px) {
+    #navigator {
+      border-bottom: 1px solid #ccc;
+    }
+  }
 
-    <div class="row justify-content-center pt-4">
-      <div class="col-12 col-md-7" style="z-index: 10000;"><form><div class="row"><div class="col fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><input type="text" class="form-control" placeholder="Email" value=""></p></div></div></div></div><div class="row mt-4"><div class="col fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><input type="email" class="form-control" placeholder="Subject" value=""></p></div></div></div></div><div class="row mt-4"><div class="col fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><textarea class="form-control" name="message" rows="3" placeholder="How can we help?" value=""></textarea></p></div></div></div></div><div class="row mt-4"><div class="col text-center fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div aria-disabled="false" class="fr-element fr-view" contenteditable="true" dir="auto" spellcheck="true"><p><button class="btn btn-primary" type="submit">Submit</button></p></div></div></div></div></form></div>
-    </div>
-    <div class="row-100"></div>
-  </div>
-  <div class="bg-dark">
-    <div class="container">
-      <div class="row-50"></div>
-      <div class="row justify-content-center text-center">
-        <div class="col-12 col-md mr-auto ml-auto" style="z-index: 10000;"><p><img alt="image" height="40" class="mb-2 fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/phone.svg"></p><p class="lead">+621462321105</p></div>
+  #navigator a {
+    font-size: 14px;
+  }
 
-        <div class="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto" style="z-index: 10000;"><p><img alt="image" height="40" class="mb-2 fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/navigation.svg"></p><p class="lead">jl siliwangi no 70.cicurug 43359.sukabumi west java</p><div dir="auto"><div contenteditable="true" dir="auto" spellcheck="true"><p><br><img data-fr-image-pasted="true" alt="image" height="40" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/mail.svg" class="fr-fic fr-dii"></p><p>geshaalgif14@gmail.com</p></div></div></div>
+  #navigator+section {
+    padding: 250px 0;
+  }
 
-        <div class="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto" style="z-index: 10000;"><p><img alt="image" height="40" class="mb-2 fr-fic fr-dii" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/mail.svg"></p><p class="lead">diki.agik@gmail.com</p></div>
+</style>
+
+<section class="fdb-block p-2" id="navigator">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarNav0">
+        <p class="m-auto">
+          <a class="btn btn-outline-primary m-1" href="call-to-action.html">Call to action</a>
+          <a class="btn btn-outline-primary m-1" href="contacts.html">Contacts</a>
+          <a class="btn btn-outline-primary m-1" href="contents.html">Contents</a>
+          <a class="btn btn-outline-primary m-1" href="features.html">Features</a>
+          <a class="btn btn-outline-primary m-1" href="footers.html">Footers</a>
+          <a class="btn btn-outline-primary m-1" href="forms.html">Forms</a>
+          <a class="btn btn-outline-primary m-1" href="headers.html">Headers</a>
+          <a class="btn btn-outline-primary m-1" href="pricings.html">Pricings</a>
+          <a class="btn btn-outline-primary m-1" href="teams.html">Teams</a>
+          <a class="btn btn-outline-primary m-1" href="testimonials.html">Testimonials</a>
+        </p>
       </div>
-      <div class="row-50"><span class="fr-marker" data-id="0" data-type="false" style="display: inline-block; line-height: 0;">​</span></div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row-70"></div>
-    <div class="row text-center">
-      <div class="col fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div class="fr-element fr-view" dir="auto" contenteditable="true" aria-disabled="false" spellcheck="true"><p class="h2"><a class="mx-2" href="https://www.froala.com"><!-- <i class="fab fa-facebook"></i> --></a> <a class="mx-2" href="https://www.froala.com"><!-- <i class="fab fa-twitter"></i> --></a> <a class="mx-2" href="https://www.froala.com"><!-- <i class="fab fa-instagram"></i> --></a> <a class="mx-2" href="https://www.froala.com"><!-- <i class="fab fa-google"></i> --></a> <a class="mx-2" href="https://www.froala.com"><!-- <i class="fab fa-pinterest"></i> --></a></p></div></div></div>
-    </div>
+    </nav>
   </div>
 </section>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/js/froala_editor.pkgd.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-<div class="fr-toolbar fr-desktop fr-inline fr-above" style="z-index: 10001; display: none; top: 2246.59px; left: 105px;"><span class="fr-arrow" style="margin-left: -5px;"></span><button id="bold-1" type="button" tabindex="-1" role="button" aria-pressed="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="bold" aria-disabled="false"><svg class="svg-inline--fa fa-bold fa-w-12" aria-hidden="true" data-prefix="fas" data-icon="bold" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M304.793 243.891c33.639-18.537 53.657-54.16 53.657-95.693 0-48.236-26.25-87.626-68.626-104.179C265.138 34.01 240.849 32 209.661 32H24c-8.837 0-16 7.163-16 16v33.049c0 8.837 7.163 16 16 16h33.113v318.53H24c-8.837 0-16 7.163-16 16V464c0 8.837 7.163 16 16 16h195.69c24.203 0 44.834-1.289 66.866-7.584C337.52 457.193 376 410.647 376 350.014c0-52.168-26.573-91.684-71.207-106.123zM142.217 100.809h67.444c16.294 0 27.536 2.019 37.525 6.717 15.828 8.479 24.906 26.502 24.906 49.446 0 35.029-20.32 56.79-53.029 56.79h-76.846V100.809zm112.642 305.475c-10.14 4.056-22.677 4.907-31.409 4.907h-81.233V281.943h84.367c39.645 0 63.057 25.38 63.057 63.057.001 28.425-13.66 52.483-34.782 61.284z"></path></svg><!-- <i class="fas fa-bold" aria-hidden="true"></i> --><span class="fr-sr-only">Bold</span></button><button id="italic-1" type="button" tabindex="-1" role="button" aria-pressed="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="italic" aria-disabled="false"><svg class="svg-inline--fa fa-italic fa-w-10" aria-hidden="true" data-prefix="fas" data-icon="italic" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M204.758 416h-33.849l62.092-320h40.725a16 16 0 0 0 15.704-12.937l6.242-32C297.599 41.184 290.034 32 279.968 32H120.235a16 16 0 0 0-15.704 12.937l-6.242 32C96.362 86.816 103.927 96 113.993 96h33.846l-62.09 320H46.278a16 16 0 0 0-15.704 12.935l-6.245 32C22.402 470.815 29.967 480 40.034 480h158.479a16 16 0 0 0 15.704-12.935l6.245-32c1.927-9.88-5.638-19.065-15.704-19.065z"></path></svg><!-- <i class="fas fa-italic" aria-hidden="true"></i> --><span class="fr-sr-only">Italic</span></button><button id="color-1" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="color" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-tint fa-w-11" aria-hidden="true" data-prefix="fas" data-icon="tint" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M205.22 22.09c-7.94-28.78-49.44-30.12-58.44 0C100.01 179.85 0 222.72 0 333.91 0 432.35 78.72 512 176 512s176-79.65 176-178.09c0-111.75-99.79-153.34-146.78-311.82zM176 448c-61.75 0-112-50.25-112-112 0-8.84 7.16-16 16-16s16 7.16 16 16c0 44.11 35.89 80 80 80 8.84 0 16 7.16 16 16s-7.16 16-16 16z"></path></svg><!-- <i class="fas fa-tint" aria-hidden="true"></i> --><span class="fr-sr-only">Colors</span></button><button id="paragraphFormat-1" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-paragraphFormat-1" aria-expanded="false" aria-haspopup="true" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5 fr-selection" data-cmd="paragraphFormat" aria-disabled="false"><svg class="svg-inline--fa fa-paragraph fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="paragraph" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M408 32H177.531C88.948 32 16.045 103.335 16 191.918 15.956 280.321 87.607 352 176 352v104c0 13.255 10.745 24 24 24h32c13.255 0 24-10.745 24-24V112h32v344c0 13.255 10.745 24 24 24h32c13.255 0 24-10.745 24-24V112h40c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-paragraph" aria-hidden="true"></i> --><span class="fr-sr-only">Paragraph Format</span></button><div id="dropdown-menu-paragraphFormat-1" class="fr-dropdown-menu" role="listbox" aria-labelledby="paragraphFormat-1" aria-hidden="true" style="left: 130px; top: 38px;"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><p style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command fr-active" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="N" title="Normal" aria-selected="true">Normal</a></p></li><li role="presentation"><h1 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H1" title="Heading 1" aria-selected="false">Heading 1</a></h1></li><li role="presentation"><h2 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H2" title="Heading 2" aria-selected="false">Heading 2</a></h2></li><li role="presentation"><h3 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H3" title="Heading 3" aria-selected="false">Heading 3</a></h3></li><li role="presentation"><h4 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H4" title="Heading 4" aria-selected="false">Heading 4</a></h4></li><li role="presentation"><pre style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="PRE" title="Code" aria-selected="false">Code</a></pre></li></ul></div></div></div><button id="align-1" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-align-1" aria-expanded="false" aria-haspopup="true" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5" data-cmd="align" aria-disabled="false"><svg class="svg-inline--fa fa-align-center fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-center" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M352 44v40c0 8.837-7.163 16-16 16H112c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h224c8.837 0 16 7.163 16 16zM16 228h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm320-200H112c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h224c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><span class="fr-sr-only">Align</span></button><div id="dropdown-menu-align-1" class="fr-dropdown-menu" role="listbox" aria-labelledby="align-1" aria-hidden="true" style="left: 172px; top: 38px;"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="left" aria-selected="false"><svg class="svg-inline--fa fa-align-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M288 44v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16zM0 172v40c0 8.837 7.163 16 16 16h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16zm16 312h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm256-200H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><span class="fr-sr-only">Align Left</span></a></li><li role="presentation"><a class="fr-command fr-title fr-active" tabindex="-1" role="option" data-cmd="align" data-param1="center" aria-selected="true"><svg class="svg-inline--fa fa-align-center fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-center" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M352 44v40c0 8.837-7.163 16-16 16H112c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h224c8.837 0 16 7.163 16 16zM16 228h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm320-200H112c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h224c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><span class="fr-sr-only">Align Center</span></a></li><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="right" title="Align Right" aria-selected="false"><svg class="svg-inline--fa fa-align-right fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M160 84V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H176c-8.837 0-16-7.163-16-16zM16 228h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm160-128h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H176c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-align-right" aria-hidden="true"></i> --><span class="fr-sr-only">Align Right</span></a></li><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="justify" title="Align Justify" aria-selected="false"><svg class="svg-inline--fa fa-align-justify fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-justify" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-align-justify" aria-hidden="true"></i> --><span class="fr-sr-only">Align Justify</span></a></li></ul></div></div></div><div class="fr-separator fr-hs" role="separator" aria-orientation="horizontal"></div><button id="emoticons-1" type="button" tabindex="-1" role="button" title="Emoticons" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="emoticons" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-smile fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="smile" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z"></path></svg><!-- <i class="fas fa-smile" aria-hidden="true"></i> --><span class="fr-sr-only">Emoticons</span></button><button id="insertLink-1" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertLink" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-link fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path></svg><!-- <i class="fas fa-link" aria-hidden="true"></i> --><span class="fr-sr-only">Insert Link</span></button><button id="insertImage-1" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertImage" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-image fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"></path></svg><!-- <i class="fas fa-image" aria-hidden="true"></i> --><span class="fr-sr-only">Insert Image</span></button><button id="undo-1" type="button" tabindex="-1" role="button" aria-disabled="true" class="fr-command fr-btn fr-btn-font_awesome_5 fr-disabled" data-cmd="undo"><svg class="svg-inline--fa fa-undo fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="undo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M212.333 224.333H12c-6.627 0-12-5.373-12-12V12C0 5.373 5.373 0 12 0h48c6.627 0 12 5.373 12 12v78.112C117.773 39.279 184.26 7.47 258.175 8.007c136.906.994 246.448 111.623 246.157 248.532C504.041 393.258 393.12 504 256.333 504c-64.089 0-122.496-24.313-166.51-64.215-5.099-4.622-5.334-12.554-.467-17.42l33.967-33.967c4.474-4.474 11.662-4.717 16.401-.525C170.76 415.336 211.58 432 256.333 432c97.268 0 176-78.716 176-176 0-97.267-78.716-176-176-176-58.496 0-110.28 28.476-142.274 72.333h98.274c6.627 0 12 5.373 12 12v48c0 6.627-5.373 12-12 12z"></path></svg><!-- <i class="fas fa-undo" aria-hidden="true"></i> --><span class="fr-sr-only">Undo</span></button><button id="redo-1" type="button" tabindex="-1" role="button" aria-disabled="true" title="Redo (Ctrl+Shift+Z)" class="fr-command fr-btn fr-btn-font_awesome_5 fr-disabled" data-cmd="redo"><svg class="svg-inline--fa fa-redo fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="redo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M500.333 0h-47.411c-6.853 0-12.314 5.729-11.986 12.574l3.966 82.759C399.416 41.899 331.672 8 256.001 8 119.34 8 7.899 119.526 8 256.187 8.101 393.068 119.096 504 256 504c63.926 0 122.202-24.187 166.178-63.908 5.113-4.618 5.354-12.561.482-17.433l-33.971-33.971c-4.466-4.466-11.64-4.717-16.38-.543C341.308 415.448 300.606 432 256 432c-97.267 0-176-78.716-176-176 0-97.267 78.716-176 176-176 60.892 0 114.506 30.858 146.099 77.8l-101.525-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12z"></path></svg><!-- <i class="fas fa-redo" aria-hidden="true"></i> --><span class="fr-sr-only">Redo</span></button></div>
-<div class="fr-tooltip" style="left: -3000px; top: 2275px; position: fixed;">Paragraph Format</div>
-<div class="fr-image-overlay" style="display: none;"></div>
-<div class="fr-toolbar fr-desktop fr-inline fr-above" style="z-index: 10001; display: none; top: 1384.8px; left: 10px;"><span class="fr-arrow" style="margin-left: -46px;"></span><button id="bold-28" type="button" tabindex="-1" role="button" aria-pressed="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="bold" aria-disabled="false"><svg class="svg-inline--fa fa-bold fa-w-12" aria-hidden="true" data-prefix="fas" data-icon="bold" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M304.793 243.891c33.639-18.537 53.657-54.16 53.657-95.693 0-48.236-26.25-87.626-68.626-104.179C265.138 34.01 240.849 32 209.661 32H24c-8.837 0-16 7.163-16 16v33.049c0 8.837 7.163 16 16 16h33.113v318.53H24c-8.837 0-16 7.163-16 16V464c0 8.837 7.163 16 16 16h195.69c24.203 0 44.834-1.289 66.866-7.584C337.52 457.193 376 410.647 376 350.014c0-52.168-26.573-91.684-71.207-106.123zM142.217 100.809h67.444c16.294 0 27.536 2.019 37.525 6.717 15.828 8.479 24.906 26.502 24.906 49.446 0 35.029-20.32 56.79-53.029 56.79h-76.846V100.809zm112.642 305.475c-10.14 4.056-22.677 4.907-31.409 4.907h-81.233V281.943h84.367c39.645 0 63.057 25.38 63.057 63.057.001 28.425-13.66 52.483-34.782 61.284z"></path></svg><!-- <i class="fas fa-bold" aria-hidden="true"></i> --><span class="fr-sr-only">Bold</span></button><button id="italic-28" type="button" tabindex="-1" role="button" aria-pressed="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="italic" aria-disabled="false"><svg class="svg-inline--fa fa-italic fa-w-10" aria-hidden="true" data-prefix="fas" data-icon="italic" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M204.758 416h-33.849l62.092-320h40.725a16 16 0 0 0 15.704-12.937l6.242-32C297.599 41.184 290.034 32 279.968 32H120.235a16 16 0 0 0-15.704 12.937l-6.242 32C96.362 86.816 103.927 96 113.993 96h33.846l-62.09 320H46.278a16 16 0 0 0-15.704 12.935l-6.245 32C22.402 470.815 29.967 480 40.034 480h158.479a16 16 0 0 0 15.704-12.935l6.245-32c1.927-9.88-5.638-19.065-15.704-19.065z"></path></svg><!-- <i class="fas fa-italic" aria-hidden="true"></i> --><span class="fr-sr-only">Italic</span></button><button id="color-28" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="color" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-tint fa-w-11" aria-hidden="true" data-prefix="fas" data-icon="tint" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M205.22 22.09c-7.94-28.78-49.44-30.12-58.44 0C100.01 179.85 0 222.72 0 333.91 0 432.35 78.72 512 176 512s176-79.65 176-178.09c0-111.75-99.79-153.34-146.78-311.82zM176 448c-61.75 0-112-50.25-112-112 0-8.84 7.16-16 16-16s16 7.16 16 16c0 44.11 35.89 80 80 80 8.84 0 16 7.16 16 16s-7.16 16-16 16z"></path></svg><!-- <i class="fas fa-tint" aria-hidden="true"></i> --><span class="fr-sr-only">Colors</span></button><button id="paragraphFormat-28" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-paragraphFormat-28" aria-expanded="false" aria-haspopup="true" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5 fr-selection" data-cmd="paragraphFormat" aria-disabled="false"><svg class="svg-inline--fa fa-paragraph fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="paragraph" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M408 32H177.531C88.948 32 16.045 103.335 16 191.918 15.956 280.321 87.607 352 176 352v104c0 13.255 10.745 24 24 24h32c13.255 0 24-10.745 24-24V112h32v344c0 13.255 10.745 24 24 24h32c13.255 0 24-10.745 24-24V112h40c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-paragraph" aria-hidden="true"></i> --><span class="fr-sr-only">Paragraph Format</span></button><div id="dropdown-menu-paragraphFormat-28" class="fr-dropdown-menu" role="listbox" aria-labelledby="paragraphFormat-28" aria-hidden="true" style="left: 130px; top: 38px;"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><p style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command fr-active" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="N" title="Normal" aria-selected="true">Normal</a></p></li><li role="presentation"><h1 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H1" title="Heading 1" aria-selected="false">Heading 1</a></h1></li><li role="presentation"><h2 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H2" title="Heading 2" aria-selected="false">Heading 2</a></h2></li><li role="presentation"><h3 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H3" title="Heading 3" aria-selected="false">Heading 3</a></h3></li><li role="presentation"><h4 style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="H4" title="Heading 4" aria-selected="false">Heading 4</a></h4></li><li role="presentation"><pre style="padding: 0 !important; margin: 0 !important;" role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="paragraphFormat" data-param1="PRE" title="Code" aria-selected="false">Code</a></pre></li></ul></div></div></div><button id="align-28" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-align-28" aria-expanded="false" aria-haspopup="true" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5" data-cmd="align" aria-disabled="false"><svg class="svg-inline--fa fa-align-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M288 44v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16zM0 172v40c0 8.837 7.163 16 16 16h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16zm16 312h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm256-200H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><span class="fr-sr-only">Align</span></button><div id="dropdown-menu-align-28" class="fr-dropdown-menu" role="listbox" aria-labelledby="align-28" aria-hidden="true"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="left" title="Align Left"><svg class="svg-inline--fa fa-align-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M288 44v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16zM0 172v40c0 8.837 7.163 16 16 16h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16zm16 312h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm256-200H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-left" aria-hidden="true"></i> --><span class="fr-sr-only">Align Left</span></a></li><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="center" title="Align Center"><svg class="svg-inline--fa fa-align-center fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-center" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M352 44v40c0 8.837-7.163 16-16 16H112c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h224c8.837 0 16 7.163 16 16zM16 228h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm320-200H112c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h224c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z"></path></svg><!-- <i class="fas fa-align-center" aria-hidden="true"></i> --><span class="fr-sr-only">Align Center</span></a></li><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="right" title="Align Right"><svg class="svg-inline--fa fa-align-right fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M160 84V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H176c-8.837 0-16-7.163-16-16zM16 228h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm160-128h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H176c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-align-right" aria-hidden="true"></i> --><span class="fr-sr-only">Align Right</span></a></li><li role="presentation"><a class="fr-command fr-title" tabindex="-1" role="option" data-cmd="align" data-param1="justify" title="Align Justify"><svg class="svg-inline--fa fa-align-justify fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-justify" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-align-justify" aria-hidden="true"></i> --><span class="fr-sr-only">Align Justify</span></a></li></ul></div></div></div><div class="fr-separator fr-hs" role="separator" aria-orientation="horizontal"></div><button id="emoticons-28" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="emoticons" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-smile fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="smile" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z"></path></svg><!-- <i class="fas fa-smile" aria-hidden="true"></i> --><span class="fr-sr-only">Emoticons</span></button><button id="insertLink-28" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertLink" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-link fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path></svg><!-- <i class="fas fa-link" aria-hidden="true"></i> --><span class="fr-sr-only">Insert Link</span></button><button id="insertImage-28" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="insertImage" data-popup="true" aria-disabled="false"><svg class="svg-inline--fa fa-image fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"></path></svg><!-- <i class="fas fa-image" aria-hidden="true"></i> --><span class="fr-sr-only">Insert Image</span></button><button id="undo-28" type="button" tabindex="-1" role="button" aria-disabled="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="undo"><svg class="svg-inline--fa fa-undo fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="undo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M212.333 224.333H12c-6.627 0-12-5.373-12-12V12C0 5.373 5.373 0 12 0h48c6.627 0 12 5.373 12 12v78.112C117.773 39.279 184.26 7.47 258.175 8.007c136.906.994 246.448 111.623 246.157 248.532C504.041 393.258 393.12 504 256.333 504c-64.089 0-122.496-24.313-166.51-64.215-5.099-4.622-5.334-12.554-.467-17.42l33.967-33.967c4.474-4.474 11.662-4.717 16.401-.525C170.76 415.336 211.58 432 256.333 432c97.268 0 176-78.716 176-176 0-97.267-78.716-176-176-176-58.496 0-110.28 28.476-142.274 72.333h98.274c6.627 0 12 5.373 12 12v48c0 6.627-5.373 12-12 12z"></path></svg><!-- <i class="fas fa-undo" aria-hidden="true"></i> --><span class="fr-sr-only">Undo</span></button><button id="redo-28" type="button" tabindex="-1" role="button" aria-disabled="true" title="Redo (Ctrl+Shift+Z)" class="fr-command fr-btn fr-btn-font_awesome_5 fr-disabled" data-cmd="redo"><svg class="svg-inline--fa fa-redo fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="redo" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M500.333 0h-47.411c-6.853 0-12.314 5.729-11.986 12.574l3.966 82.759C399.416 41.899 331.672 8 256.001 8 119.34 8 7.899 119.526 8 256.187 8.101 393.068 119.096 504 256 504c63.926 0 122.202-24.187 166.178-63.908 5.113-4.618 5.354-12.561.482-17.433l-33.971-33.971c-4.466-4.466-11.64-4.717-16.38-.543C341.308 415.448 300.606 432 256 432c-97.267 0-176-78.716-176-176 0-97.267 78.716-176 176-176 60.892 0 114.506 30.858 146.099 77.8l-101.525-4.865c-6.845-.328-12.574 5.133-12.574 11.986v47.411c0 6.627 5.373 12 12 12h200.333c6.627 0 12-5.373 12-12V12c0-6.627-5.373-12-12-12z"></path></svg><!-- <i class="fas fa-redo" aria-hidden="true"></i> --><span class="fr-sr-only">Redo</span></button></div>
-<div class="fr-image-overlay" style="display: none;"></div>
-<div class="fr-tooltip" style="left: -3000px; top: 1093px; position: fixed;">Paragraph Format</div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 1039.61px; top: 1131.8px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons"><button id="linkEdit-9" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="linkEdit" data-popup="true"><svg class="svg-inline--fa fa-edit fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="edit" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"></path></svg><!-- <i class="fas fa-edit" aria-hidden="true"></i> --><span class="fr-sr-only">Edit Link</span></button><button id="linkButton-9" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-linkButton-9" aria-expanded="false" aria-haspopup="true" title="Choose Style" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5" data-cmd="linkButton"><svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg><!-- <i class="fas fa-star" aria-hidden="true"></i> --><span class="fr-sr-only">Choose Style</span></button><div id="dropdown-menu-linkButton-9" class="fr-dropdown-menu" role="listbox" aria-labelledby="linkButton-9" aria-hidden="true"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkButton" data-param1="link" title="Link">Link</a></li><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkButton" data-param1="button" title="Button">Button</a></li><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkButton" data-param1="outline" title="Outline">Outline</a></li></ul></div></div></div><button id="linkRemove-9" type="button" tabindex="-1" role="button" title="Unlink" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="linkRemove"><svg class="svg-inline--fa fa-unlink fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="unlink" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M304.083 405.907c4.686 4.686 4.686 12.284 0 16.971l-44.674 44.674c-59.263 59.262-155.693 59.266-214.961 0-59.264-59.265-59.264-155.696 0-214.96l44.675-44.675c4.686-4.686 12.284-4.686 16.971 0l39.598 39.598c4.686 4.686 4.686 12.284 0 16.971l-44.675 44.674c-28.072 28.073-28.072 73.75 0 101.823 28.072 28.072 73.75 28.073 101.824 0l44.674-44.674c4.686-4.686 12.284-4.686 16.971 0l39.597 39.598zm-56.568-260.216c4.686 4.686 12.284 4.686 16.971 0l44.674-44.674c28.072-28.075 73.75-28.073 101.824 0 28.072 28.073 28.072 73.75 0 101.823l-44.675 44.674c-4.686 4.686-4.686 12.284 0 16.971l39.598 39.598c4.686 4.686 12.284 4.686 16.971 0l44.675-44.675c59.265-59.265 59.265-155.695 0-214.96-59.266-59.264-155.695-59.264-214.961 0l-44.674 44.674c-4.686 4.686-4.686 12.284 0 16.971l39.597 39.598zm234.828 359.28l22.627-22.627c9.373-9.373 9.373-24.569 0-33.941L63.598 7.029c-9.373-9.373-24.569-9.373-33.941 0L7.029 29.657c-9.373 9.373-9.373 24.569 0 33.941l441.373 441.373c9.373 9.372 24.569 9.372 33.941 0z"></path></svg><!-- <i class="fas fa-unlink" aria-hidden="true"></i> --><span class="fr-sr-only">Unlink</span></button></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 1126.5px; top: 963.797px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons"><button id="imageReplace-2" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="imageReplace" data-popup="true"><svg class="svg-inline--fa fa-exchange-alt fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-exchange-alt" aria-hidden="true"></i> --><span class="fr-sr-only">Replace</span></button></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 989.5px; top: 851.797px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons" style=""><button id="imageBack-2" type="button" tabindex="-1" role="button" title="Back" class="fr-command fr-btn fr-btn-font_awesome_5 fr-back" data-cmd="imageBack"><svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i class="fas fa-arrow-left" aria-hidden="true"></i> --><span class="fr-sr-only">Back</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="imageUpload-2" type="button" tabindex="-1" role="button" aria-pressed="true" title="Upload Image" class="fr-command fr-btn fr-btn-font_awesome_5 fr-active" data-cmd="imageUpload"><svg class="svg-inline--fa fa-upload fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="upload" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M296 384h-80c-13.3 0-24-10.7-24-24V192h-87.7c-17.8 0-26.7-21.5-14.1-34.1L242.3 5.7c7.5-7.5 19.8-7.5 27.3 0l152.2 152.2c12.6 12.6 3.7 34.1-14.1 34.1H320v168c0 13.3-10.7 24-24 24zm216-8v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h136v8c0 30.9 25.1 56 56 56h80c30.9 0 56-25.1 56-56v-8h136c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><!-- <i class="fas fa-upload" aria-hidden="true"></i> --><span class="fr-sr-only">Upload Image</span></button><button id="imageByURL-2" type="button" tabindex="-1" role="button" aria-pressed="false" title="By URL" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="imageByURL"><svg class="svg-inline--fa fa-link fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path></svg><!-- <i class="fas fa-link" aria-hidden="true"></i> --><span class="fr-sr-only">By URL</span></button></div><div class="fr-image-upload-layer fr-layer fr-active" id="fr-image-upload-layer-2"><strong>Drop image</strong><br>(or click)<div class="fr-form"><input type="file" accept="image/jpeg, image/jpg, image/png, image/gif" tabindex="-1" aria-labelledby="fr-image-upload-layer-2" role="button" dir="auto" class="fr-not-empty" disabled="disabled"></div></div><div class="fr-image-by-url-layer fr-layer" id="fr-image-by-url-layer-2"><div class="fr-input-line"><input id="fr-image-by-url-layer-text-2" type="text" placeholder="http://" tabindex="1" aria-required="true" dir="auto" class="fr-not-empty" disabled="disabled"><label for="fr-image-by-url-layer-text-2">http://</label></div><div class="fr-action-buttons"><button type="button" class="fr-command fr-submit" data-cmd="imageInsertByURL" tabindex="2" role="button">Replace</button></div></div><div class="fr-image-progress-bar-layer fr-layer"><h3 tabindex="-1" class="fr-message">Loading image</h3><div class="fr-loader fr-indeterminate"><span class="fr-progress"></span></div><div class="fr-action-buttons fr-indeterminate"><button type="button" class="fr-command fr-dismiss" data-cmd="imageDismissError" tabindex="2" role="button">OK</button></div></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 562.5px; top: 166.797px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons fr-colors-buttons"><button id="colorsBack-1" type="button" tabindex="-1" role="button" title="Back" class="fr-command fr-btn fr-btn-font_awesome_5 fr-back" data-cmd="colorsBack"><svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i class="fas fa-arrow-left" aria-hidden="true"></i> --><span class="fr-sr-only">Back</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><div class="fr-separator fr-hs" role="separator" aria-orientation="horizontal"></div><div class="fr-colors-tabs fr-group"><span class="fr-colors-tab fr-selected-tab fr-command" tabindex="-1" role="button" aria-pressed="true" data-param1="text" data-cmd="colorChangeSet" title="Text">Text</span><span class="fr-colors-tab fr-command" tabindex="-1" role="button" aria-pressed="false" data-param1="background" data-cmd="colorChangeSet" title="Background">Background</span></div></div><div class="fr-color-set fr-text-color fr-selected-set"><span class="fr-command fr-select-color" style="background: #61BD6D;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#61BD6D"><span class="fr-sr-only">Color #61BD6D&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #1ABC9C;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#1ABC9C"><span class="fr-sr-only">Color #1ABC9C&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #54ACD2;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#54ACD2"><span class="fr-sr-only">Color #54ACD2&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #2C82C9;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#2C82C9"><span class="fr-sr-only">Color #2C82C9&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #9365B8;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#9365B8"><span class="fr-sr-only">Color #9365B8&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #475577;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#475577"><span class="fr-sr-only">Color #475577&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #CCCCCC;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#CCCCCC"><span class="fr-sr-only">Color #CCCCCC&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #41A85F;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#41A85F"><span class="fr-sr-only">Color #41A85F&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #00A885;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#00A885"><span class="fr-sr-only">Color #00A885&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #3D8EB9;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#3D8EB9"><span class="fr-sr-only">Color #3D8EB9&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #2969B0;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#2969B0"><span class="fr-sr-only">Color #2969B0&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #553982;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#553982"><span class="fr-sr-only">Color #553982&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #28324E;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#28324E"><span class="fr-sr-only">Color #28324E&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #000000;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#000000"><span class="fr-sr-only">Color #000000&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #F7DA64;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#F7DA64"><span class="fr-sr-only">Color #F7DA64&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #FBA026;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#FBA026"><span class="fr-sr-only">Color #FBA026&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #EB6B56;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#EB6B56"><span class="fr-sr-only">Color #EB6B56&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #E25041;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#E25041"><span class="fr-sr-only">Color #E25041&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #A38F84;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#A38F84"><span class="fr-sr-only">Color #A38F84&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #EFEFEF;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#EFEFEF"><span class="fr-sr-only">Color #EFEFEF&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #FFFFFF;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#FFFFFF"><span class="fr-sr-only">Color #FFFFFF&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #FAC51C;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#FAC51C"><span class="fr-sr-only">Color #FAC51C&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #F37934;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#F37934"><span class="fr-sr-only">Color #F37934&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #D14841;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#D14841"><span class="fr-sr-only">Color #D14841&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #B8312F;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#B8312F"><span class="fr-sr-only">Color #B8312F&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #7C706B;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#7C706B"><span class="fr-sr-only">Color #7C706B&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #D1D5D8;" tabindex="-1" aria-selected="false" role="button" data-cmd="textColor" data-param1="#D1D5D8"><span class="fr-sr-only">Color #D1D5D8&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" data-cmd="textColor" tabindex="-1" role="button" data-param1="REMOVE" title="Clear Formatting"><svg class="svg-inline--fa fa-eraser fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="eraser" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M497.941 273.941c18.745-18.745 18.745-49.137 0-67.882l-160-160c-18.745-18.745-49.136-18.746-67.883 0l-256 256c-18.745 18.745-18.745 49.137 0 67.882l96 96A48.004 48.004 0 0 0 144 480h356c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12H355.883l142.058-142.059zm-302.627-62.627l137.373 137.373L265.373 416H150.628l-80-80 124.686-124.686z"></path></svg><!-- <i class="fas fa-eraser" aria-hidden="true"></i> --><span class="fr-sr-only">Clear Formatting</span></span></div><div class="fr-color-set fr-background-color"><span class="fr-command fr-select-color" style="background: #61BD6D;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#61BD6D"><span class="fr-sr-only">Color #61BD6D&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #1ABC9C;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#1ABC9C"><span class="fr-sr-only">Color #1ABC9C&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #54ACD2;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#54ACD2"><span class="fr-sr-only">Color #54ACD2&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #2C82C9;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#2C82C9"><span class="fr-sr-only">Color #2C82C9&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #9365B8;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#9365B8"><span class="fr-sr-only">Color #9365B8&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #475577;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#475577"><span class="fr-sr-only">Color #475577&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #CCCCCC;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#CCCCCC"><span class="fr-sr-only">Color #CCCCCC&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #41A85F;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#41A85F"><span class="fr-sr-only">Color #41A85F&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #00A885;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#00A885"><span class="fr-sr-only">Color #00A885&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #3D8EB9;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#3D8EB9"><span class="fr-sr-only">Color #3D8EB9&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #2969B0;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#2969B0"><span class="fr-sr-only">Color #2969B0&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #553982;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#553982"><span class="fr-sr-only">Color #553982&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #28324E;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#28324E"><span class="fr-sr-only">Color #28324E&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #000000;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#000000"><span class="fr-sr-only">Color #000000&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #F7DA64;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#F7DA64"><span class="fr-sr-only">Color #F7DA64&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #FBA026;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#FBA026"><span class="fr-sr-only">Color #FBA026&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #EB6B56;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#EB6B56"><span class="fr-sr-only">Color #EB6B56&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #E25041;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#E25041"><span class="fr-sr-only">Color #E25041&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #A38F84;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#A38F84"><span class="fr-sr-only">Color #A38F84&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #EFEFEF;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#EFEFEF"><span class="fr-sr-only">Color #EFEFEF&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #FFFFFF;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#FFFFFF"><span class="fr-sr-only">Color #FFFFFF&nbsp;&nbsp;&nbsp;</span></span><br><span class="fr-command fr-select-color" style="background: #FAC51C;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#FAC51C"><span class="fr-sr-only">Color #FAC51C&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #F37934;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#F37934"><span class="fr-sr-only">Color #F37934&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #D14841;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#D14841"><span class="fr-sr-only">Color #D14841&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #B8312F;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#B8312F"><span class="fr-sr-only">Color #B8312F&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #7C706B;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#7C706B"><span class="fr-sr-only">Color #7C706B&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" style="background: #D1D5D8;" tabindex="-1" aria-selected="false" role="button" data-cmd="backgroundColor" data-param1="#D1D5D8"><span class="fr-sr-only">Color #D1D5D8&nbsp;&nbsp;&nbsp;</span></span><span class="fr-command fr-select-color" data-cmd="backgroundColor" tabindex="-1" role="button" data-param1="REMOVE" title="Clear Formatting"><svg class="svg-inline--fa fa-eraser fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="eraser" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M497.941 273.941c18.745-18.745 18.745-49.137 0-67.882l-160-160c-18.745-18.745-49.136-18.746-67.883 0l-256 256c-18.745 18.745-18.745 49.137 0 67.882l96 96A48.004 48.004 0 0 0 144 480h356c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12H355.883l142.058-142.059zm-302.627-62.627l137.373 137.373L265.373 416H150.628l-80-80 124.686-124.686z"></path></svg><!-- <i class="fas fa-eraser" aria-hidden="true"></i> --><span class="fr-sr-only">Clear Formatting</span></span></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 989.5px; top: 953.297px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons" style=""><button id="imageBack-28" type="button" tabindex="-1" role="button" title="Back" class="fr-command fr-btn fr-btn-font_awesome_5 fr-back" data-cmd="imageBack"><svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i class="fas fa-arrow-left" aria-hidden="true"></i> --><span class="fr-sr-only">Back</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="imageUpload-28" type="button" tabindex="-1" role="button" aria-pressed="true" class="fr-command fr-btn fr-btn-font_awesome_5 fr-active" data-cmd="imageUpload"><svg class="svg-inline--fa fa-upload fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="upload" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M296 384h-80c-13.3 0-24-10.7-24-24V192h-87.7c-17.8 0-26.7-21.5-14.1-34.1L242.3 5.7c7.5-7.5 19.8-7.5 27.3 0l152.2 152.2c12.6 12.6 3.7 34.1-14.1 34.1H320v168c0 13.3-10.7 24-24 24zm216-8v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h136v8c0 30.9 25.1 56 56 56h80c30.9 0 56-25.1 56-56v-8h136c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path></svg><!-- <i class="fas fa-upload" aria-hidden="true"></i> --><span class="fr-sr-only">Upload Image</span></button><button id="imageByURL-28" type="button" tabindex="-1" role="button" aria-pressed="false" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="imageByURL"><svg class="svg-inline--fa fa-link fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="link" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path></svg><!-- <i class="fas fa-link" aria-hidden="true"></i> --><span class="fr-sr-only">By URL</span></button></div><div class="fr-image-upload-layer fr-layer fr-active" id="fr-image-upload-layer-28"><strong>Drop image</strong><br>(or click)<div class="fr-form"><input type="file" accept="image/jpeg, image/jpg, image/png, image/gif" tabindex="-1" aria-labelledby="fr-image-upload-layer-28" role="button" dir="auto" class="fr-not-empty" disabled="disabled"></div></div><div class="fr-image-by-url-layer fr-layer" id="fr-image-by-url-layer-28"><div class="fr-input-line"><input id="fr-image-by-url-layer-text-28" type="text" placeholder="http://" tabindex="1" aria-required="true" dir="auto" class="fr-not-empty" disabled="disabled"><label for="fr-image-by-url-layer-text-28">http://</label></div><div class="fr-action-buttons"><button type="button" class="fr-command fr-submit" data-cmd="imageInsertByURL" tabindex="2" role="button">Replace</button></div></div><div class="fr-image-progress-bar-layer fr-layer"><h3 tabindex="-1" class="fr-message">Loading image</h3><div class="fr-loader fr-indeterminate"><span class="fr-progress"></span></div><div class="fr-action-buttons fr-indeterminate"><button type="button" class="fr-command fr-dismiss" data-cmd="imageDismissError" tabindex="2" role="button">OK</button></div></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 1126.5px; top: 979.297px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons"><button id="imageReplace-28" type="button" tabindex="-1" role="button" class="fr-command fr-btn fr-btn-font_awesome_5" data-cmd="imageReplace" data-popup="true"><svg class="svg-inline--fa fa-exchange-alt fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"></path></svg><!-- <i class="fas fa-exchange-alt" aria-hidden="true"></i> --><span class="fr-sr-only">Replace</span></button></div></div>
-<div class="fr-image-resizer" style="top: -1px; left: 4px; width: 150px; height: 150px;"><div class="fr-handler fr-hnw"></div><div class="fr-handler fr-hne"></div><div class="fr-handler fr-hsw"></div><div class="fr-handler fr-hse"></div></div>
-<div class="fr-popup fr-desktop fr-inline" style="z-index: 10004; left: 1005.5px; top: 2158.59px;"><span class="fr-arrow" style="margin-left: -5px;"></span><div class="fr-buttons"><button id="linkBack-19" type="button" tabindex="-1" role="button" title="Back" class="fr-command fr-btn fr-btn-font_awesome_5 fr-back" data-cmd="linkBack"><svg class="svg-inline--fa fa-arrow-left fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i class="fas fa-arrow-left" aria-hidden="true"></i> --><span class="fr-sr-only">Back</span></button><div class="fr-separator fr-vs" role="separator" aria-orientation="vertical"></div><button id="linkList-19" type="button" tabindex="-1" role="button" aria-controls="dropdown-menu-linkList-19" aria-expanded="false" aria-haspopup="true" title="Choose Link" class="fr-command fr-btn fr-dropdown fr-btn-font_awesome_5" data-cmd="linkList"><svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search" aria-hidden="true"></i> --><span class="fr-sr-only">Choose Link</span></button><div id="dropdown-menu-linkList-19" class="fr-dropdown-menu" role="listbox" aria-labelledby="linkList-19" aria-hidden="true"><div class="fr-dropdown-wrapper" role="presentation"><div class="fr-dropdown-content" role="presentation"><ul class="fr-dropdown-list" role="presentation"><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkList" data-param1="0">Froala</a></li><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkList" data-param1="1">Google</a></li><li role="presentation"><a class="fr-command" tabindex="-1" role="option" data-cmd="linkList" data-param1="2">Facebook</a></li></ul></div></div></div></div><div class="fr-link-insert-layer fr-layer fr-active" id="fr-link-insert-layer-19"><div class="fr-input-line"><input id="fr-link-insert-layer-url-19" name="href" type="text" class="fr-link-attr" placeholder="URL" tabindex="1" dir="auto" disabled="disabled"><label for="fr-link-insert-layer-url-19">URL</label></div><div class="fr-input-line"><input id="fr-link-insert-layer-text-19" name="text" type="text" class="fr-link-attr" placeholder="Text" tabindex="2" dir="auto" disabled="disabled"><label for="fr-link-insert-layer-text-19">Text</label></div><div class="fr-checkbox-line"><span class="fr-checkbox"><input name="target" class="fr-link-attr fr-not-empty" data-checked="_blank" type="checkbox" id="fr-link-target-19" tabindex="3" dir="auto" disabled="disabled"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 32 32"><path d="M27 4l-15 15-7-7-5 5 12 12 20-20z" fill="#FFF"></path></svg></span></span><label for="fr-link-target-19">Open in new tab</label></div><div class="fr-action-buttons"><button class="fr-command fr-submit" role="button" data-cmd="linkInsert" href="#" tabindex="4" type="button">Insert</button></div></div></div>
-</body>
+
+<script>
+  var page = window.location.pathname.split('/')
+  page = page[page.length - 1]
+
+  var nav = document.querySelector('a[href="' + page + '"]')
+  if (nav) {
+    nav.classList.add('active')
+  }
+
+</script>
+
+    <!-- Contents 1 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 text-center">
+            <h1>Froala Design Blocks</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 2 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 text-center">
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in <a href="https://www.froala.com">Bookmarksgrove</a> right at the coast of the Semantics, a large language
+              ocean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 3 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 text-center">
+            <h1>Froala Design Blocks</h1>
+            <p class="lead">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far <a href="https://www.froala.com">World of Grammar</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 4 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-10 col-md-8 text-left">
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 5 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col col-sm-10 col-md-8 text-left">
+            <p class="lead">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far <a href="https://www.froala.com">World of Grammar</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 6 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-left">
+            <h2>Far far away...</h2>
+    
+            <p>Far far away, behind the word mountains, far from the countries <a href="https://www.froala.com">Vokalia</a> and <a href="https://www.froala.com">Consonantia</a>, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+              of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+    
+            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the <a href="https://www.froala.com">Little Blind Text</a>          should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
+              agency, where they abused her for their.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 7 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Froala Design Blocks</h1>
+    
+            <div class="row text-left pt-4">
+              <div class="col-12 col-md-6">
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden
+                  flows by their place far far away.</p>
+              </div>
+              <div class="col-12 col-md-6">
+                <p class="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
+                  the coast.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 8 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Froala Design Blocks</h1>
+            <p class="lead">Subtitle text about launch comes here.</p>
+            <p class="lead">
+              <a href="https://www.froala.com" class="mx-2">Learn More <i class="fas fa-angle-right"></i></a>
+              <a href="https://www.froala.com" class="mx-2">Buy <i class="fas fa-angle-right"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <img alt="image" class="img-fluid mt-5" src="./imgs/draws/hosting.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 9 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Froala Design Blocks</h1>
+          </div>
+        </div>
+    
+        <div class="row pt-5 justify-content-center align-items-center">
+          <div class="col-4">
+            <img alt="image" class="img-fluid" src="./imgs/draws/developer.svg">
+          </div>
+          <div class="col-4 offset-1">
+            <img alt="image" class="img-fluid" src="./imgs/draws/git.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 10 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row pb-3">
+          <div class="col text-center">
+            <h1>Froala Design Blocks</h1>
+          </div>
+        </div>
+        <div class="row pt-5 justify-content-center align-items-center">
+          <div class="col-3">
+            <img alt="image" class="img-fluid" src="./imgs/draws/design-life.svg">
+          </div>
+          <div class="col-3 offset-1">
+            <img alt="image" class="img-fluid" src="./imgs/draws/designer.svg">
+          </div>
+          <div class="col-3 offset-1">
+            <img alt="image" class="img-fluid" src="./imgs/draws/design-community.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 11 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Froala Design Blocks</h1>
+          </div>
+        </div>
+    
+        <div class="row pt-5 justify-content-center align-items-center">
+          <div class="col-6 col-md-2">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/1.svg">
+          </div>
+          <div class="col-6 col-md-2 offset-md-1">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/5.svg">
+          </div>
+          <div class="col-6 col-md-2 mt-4 mt-md-0 offset-md-1">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/7.svg">
+          </div>
+          <div class="col-6 col-md-2 mt-4 mt-md-0 offset-md-1">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/4.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 12 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-5">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+          <div class="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/2.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 13 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col col-md-8 text-center">
+            <img alt="image" class="fdb-icon mb-4" src="./imgs/icons/gift.svg">
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 14 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <img alt="image" class="img-fluid" src="./imgs/draws/smile.svg">
+          </div>
+          <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
+            <h1>Froala Blocks</h1>
+            <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p><a class="btn btn-secondary mt-4" href="https://www.froala.com">Download</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 15 -->
+    <section class="fdb-block" style="background-image: url(./imgs/shapes/8.svg)">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-5">
+            <img alt="image" class="fdb-icon" src="./imgs/icons/github.svg">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+          <div class="col-10 col-sm-6 m-auto col-md-4 pt-4 pt-md-0">
+            <img alt="image" class="img-fluid rounded-0" src="./imgs/draws/chat.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 16 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <div class="row justify-content-center pb-5">
+              <div class="col-4 col-sm-3 col-md-2"><img alt="image" class="fdb-icon" src="./imgs/icons/layers.svg"></div>
+              <div class="col-4 col-sm-3 col-md-2"><img alt="image" class="fdb-icon" src="./imgs/icons/map.svg"></div>
+              <div class="col-4 col-sm-3 col-md-2"><img alt="image" class="fdb-icon" src="./imgs/icons/monitor.svg"></div>
+            </div>
+    
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 17 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
+            <img alt="image" class="img-fluid rounded-0" src="./imgs/draws/chatting.svg">
+          </div>
+    
+          <div class="col-12 ml-auto col-md-6 col-lg-5">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p><a class="btn btn-primary mt-4 mb-5 mb-md-0" href="https://www.froala.com">Download</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 18 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-12 col-lg-6 col-xl-5">
+            <h1>Design Blocks</h1>
+            <p class="lead mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    
+            <p><strong>Works in every browser:</strong></p>
+            <p class="h1 text-muted">
+              <i class="fab fa-chrome mr-3"></i>
+              <i class="fab fa-safari mr-3"></i>
+              <i class="fab fa-firefox mr-3"></i>
+              <i class="fab fa-edge"></i>
+            </p>
+          </div>
+          <div class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
+            <img alt="image" class="img-fluid" src="./imgs/draws/browsers.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 19 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-left">
+          <div class="col-12 col-md-6">
+            <img alt="image" class="fdb-icon" src="./imgs/icons/gift.svg">
+            <h3><strong>Awesome Things</strong></h3>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far from the countries Vokalia and Consonantia.</p>
+          </div>
+          <div class="col-12 col-md-6 pt-5 pt-md-0">
+            <img alt="image" class="fdb-icon" src="./imgs/icons/cloud.svg">
+            <h3><strong>More Awesomeness</strong></h3>
+            <p class="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries <a href="https://www.froala.com">Vokalia and Consonantia</a>, there live the blind texts. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 20 -->
+    <section class="fdb-block py-0">
+      <div class="container py-5 my-5" style="background-image: url(imgs/shapes/10.svg);">
+        <div class="row text-left py-5">
+          <div class="col-12 col-sm-10 m-auto ml-md-5 col-md-8 col-lg-6">
+            <div class="fdb-box">
+              <div class="row justify-content-center">
+                <div class="col-12 col-xl-8 text-center">
+                  <h1>Froala Design Blocks</h1>
+                  <p class="lead">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
+    
+                  <p class="h3 mt-4"><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 21 -->
+    <section class="fdb-block py-0">
+      <div class="container py-5 my-5 bg-r" style="background-image: url(imgs/shapes/9.svg);">
+        <div class="row text-left py-5">
+          <div class="col-12 col-md-8 col-lg-6 ml-sm-auto">
+            <div class="fdb-box fdb-touch">
+              <div class="row justify-content-center">
+                <div class="col-12 col-xl-8 text-center">
+                  <h1>Froala Design Blocks</h1>
+                  <p class="lead">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
+    
+                  <p class="h3 mt-4"><a href="https://www.froala.com" class="btn btn-primary">Register</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 22 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8 col-xl-6 text-center">
+            <img alt="image" width="200" src="./imgs/logo.png">
+            <h1>Froala Design Blocks</h1>
+            <p class="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
+    
+            <p class="h3 mt-5"><a href="https://www.froala.com" class="btn btn-primary">Download Now</a></p>
+            <p>Latest Version: 2.3.5</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 23 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pb-5 pb-md-0">
+            <img alt="image" class="img-fluid rounded-0" src="./imgs/draws/iphone-hand.svg">
+          </div>
+    
+          <div class="col-12 ml-md-auto col-md-7 col-lg-6 pb-5 pb-md-0">
+            <img alt="image" class="fdb-icon" src="./imgs/icons/gift.svg">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+            <p class="mt-4">
+              <a class="btn btn-secondary" href="https://www.froala.com">Download</a>
+              <a class="btn btn-dark ml-3" href="https://www.froala.com">Register</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 24 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 col-lg-5 ml-md-auto">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+    
+            <p class="mt-5">
+              <img alt="image" height="25" class="mr-4" src="./imgs/customers/samsung.svg">
+              <img alt="image" height="25" class="mr-4" src="./imgs/customers/adobe.svg">
+              <img alt="image" height="25" src="./imgs/customers/amazon.svg">
+            </p>
+          </div>
+    
+          <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pt-5 pt-md-0">
+            <img alt="image" class="img-fluid rounded-0" src="./imgs/draws/customer-survey.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 25 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row justify-content-center pb-5">
+              <div class="col-12 col-lg-8 text-center">
+                <h1>Froala Design Blocks is Open Source and free to use</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <img alt="image" class="img-fluid" src="./imgs/draws/android.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 26 -->
+    <section class="fdb-block">
+      <div class="col-fill-left" style="background-image: url(imgs/people/5.jpg);">
+      </div>
+    
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-12 col-md-5 text-center">
+            <h1>Froala Blocks</h1>
+            <p class="lead">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
+    
+            <p class="mt-4"><a href="https://www.froala.com">Learn More <i class="fas fa-angle-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 27 -->
+    <section class="fdb-block">
+      <div class="col-fill-right" style="background-image: url(imgs/people/6.jpg);">
+      </div>
+    
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-5 text-center">
+            <h1>Froala Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p class="mt-4 mb-5"><a class="btn btn-secondary" href="https://www.froala.com">Button</a></p>
+    
+            <p>Follow us on</p>
+            <p>
+              <a href="https://www.froala.com" class="mx-2 text-secondary"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-secondary"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-secondary"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-secondary"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-secondary"><i class="fab fa-google" aria-hidden="true"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 28 -->
+    <section class="fdb-block bg-dark">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>Made with <i class="fas fa-heart text-danger"></i> by Froala</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 29 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col-8 col-md-4">
+            <img alt="image" class="img-fluid" src="./imgs/photos/map-1.jpg">
+          </div>
+    
+          <div class="col-4 col-md-2">
+            <div class="row">
+              <div class="col-12">
+                <img alt="image" class="img-fluid" src="./imgs/photos/map-2.jpg">
+              </div>
+            </div>
+    
+            <div class="row mt-4">
+              <div class="col-12">
+                <img alt="image" class="img-fluid" src="./imgs/photos/map-3.jpg">
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-12 col-md-6 col-lg-5 ml-auto pt-5 pt-md-0">
+            <img alt="image" class="fdb-icon" src="./imgs/icons/github.svg">
+            <h1>Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 30 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 col-lg-3">
+            <img alt="image" class="img-fluid" src="./imgs/photos/fireworks-1.jpg">
+          </div>
+    
+          <div class="col-6 col-lg-3">
+            <img alt="image" class="img-fluid" src="./imgs/photos/fireworks-2.jpg">
+          </div>
+    
+          <div class="col-12 col-lg-6 pt-3">
+            <p class="lead text-left">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+            <p class="lead text-left">Right at the coast of the Semantics, a large language ocean. A small river named Duden. <a href="https://www.froala.com">[Read More]</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 31 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-left align-items-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <h2>Your Website</h2>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p class="lead"><a href="https://www.froala.com">Read More</a></p>
+          </div>
+    
+          <div class="col-12 col-md-6 col-lg-4 pt-4 pt-md-0">
+            <h2>Amazing Design</h2>
+            <p class="lead">Right at the coast of the Semantics, a large language ocean. A small river named Dude a rge language ocean there live the blind.</p>
+            <p class="lead"><a href="https://www.froala.com">Read More</a></p>
+          </div>
+    
+          <div class="col-12 col-md-8 m-auto m-lg-0 col-lg-4 pt-5 pt-lg-0">
+            <img alt="image" class="img-fluid" src="./imgs/draws/tabs.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 32 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>Froala Design Blocks</h1>
+            <p class="h2"><em>Right at the coast of the Semantics, a large language ocean.</em></p>
+          </div>
+        </div>
+    
+        <div class="row text-center pt-3 pt-xl-5">
+          <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6">
+            <img alt="image" height="300" src="./imgs/draws/tenis.svg">
+            <p class="lead pt-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+          </div>
+    
+          <div class="col-12 col-sm-10 m-auto m-md-0 col-md-6 pt-5 pt-md-0">
+            <img alt="image" height="300" src="./imgs/draws/basketball.svg">
+            <p class="lead pt-3">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 33 -->
+    <section class="fdb-block py-0">
+      <div class="container pt-5 mt-5" style="background-image: url(imgs/shapes/9.svg);">
+        <div class="row text-left pt-5">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="fdb-box fdb-touch rounded-bottom-0">
+              <h2><strong>Design Blocks</strong></h2>
+              <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+              <p class="lead mt-4"><a href="https://www.froala.com">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 34 -->
+    <section class="fdb-block pb-0" style="background-image: url(imgs/hero/purple.svg);">
+      <div class="container">
+        <div class="row text-left justify-content-end">
+          <div class="col-12 col-md-6 col-xl-5">
+            <div class="fdb-box rounded-bottom-0">
+              <h2><strong>Design Blocks</strong></h2>
+              <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+    
+              <p class="lead mt-4"><a class="btn btn-outline-primary" href="https://www.froala.com">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contents 35 -->
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-left align-items-center">
+          <div class="col-10 col-sm-6 m-auto m-lg-0 col-lg-4">
+            <img alt="image" class="img-fluid" src="./imgs/draws/opened.svg">
+          </div>
+    
+          <div class="col-12 col-lg-7 offset-lg-1 pt-4 pt-lg-0">
+            <h1>Froala Design Blocks</h1>
+            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
+    
+            <div class="row mt-5">
+              <div class="col-12 col-sm-6">
+                <h3><strong>Open Source</strong></h3>
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+              </div>
+    
+              <div class="col-12 col-sm-6 pt-3 pt-sm-0">
+                <h3><strong>Bootstrap</strong></h3>
+                <p class="lead">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
 </html>
